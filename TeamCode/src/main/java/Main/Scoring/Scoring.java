@@ -1,4 +1,4 @@
-package Main.Scoring;
+/*package Main.Scoring;
 
 import static org.firstinspires.ftc.robotcore.external.BlocksOpModeCompanion.telemetry;
 
@@ -21,6 +21,8 @@ import Main.Main_JAVA.Main;
 
 public class Scoring extends Main{
 
+    Boolean robot = true;
+    Double bucketColor = 2.25;
     final static double ARM_HOME = 0.0;
     final static double ARM_MIN_RANGE = 0.0;
     final static double ARM_MAX_RANGE = 1.0;
@@ -35,4 +37,4 @@ public class Scoring extends Main{
 
     }
 
-}
+}*/

@@ -1,10 +1,10 @@
-package org.firstinspires.ftc.teamcode.drive.opmode;
+/*package Main.Drive_controls.opmode;
 
-import static org.firstinspires.ftc.teamcode.drive.DriveConstants.MAX_ACCEL;
-import static org.firstinspires.ftc.teamcode.drive.DriveConstants.MAX_VEL;
-import static org.firstinspires.ftc.teamcode.drive.DriveConstants.MOTOR_VELO_PID;
-import static org.firstinspires.ftc.teamcode.drive.DriveConstants.RUN_USING_ENCODER;
-import static org.firstinspires.ftc.teamcode.drive.DriveConstants.kV;
+import static Main.Drive_controls.DriveConstants.MAX_ACCEL;
+import static Main.Drive_controls.DriveConstants.MAX_VEL;
+import static Main.Drive_controls.DriveConstants.MOTOR_VELO_PID;
+import static Main.Drive_controls.DriveConstants.RUN_USING_ENCODER;
+import static Main.Drive_controls.DriveConstants.kV;
 
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.config.Config;
@@ -20,7 +20,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.RobotLog;
 
 import org.firstinspires.ftc.robotcore.external.Telemetry;
-import org.firstinspires.ftc.teamcode.drive.SampleMecanumDrive;
+import Main.Drive_controls.SampleMecanumDrive;
 
 import java.util.List;
 
@@ -48,7 +48,7 @@ import java.util.List;
  * user to reset the position of the bot in the event that it drifts off the path.
  * Pressing B/O (Xbox/PS4) will cede control back to the tuning process.
  */
-@Config
+/*@Config
 @Autonomous(group = "drive")
 public class DriveVelocityPIDTuner extends LinearOpMode {
     public static double DISTANCE = 72; // in
@@ -168,4 +168,4 @@ public class DriveVelocityPIDTuner extends LinearOpMode {
             telemetry.update();
         }
     }
-}
+}*/

@@ -1,15 +1,15 @@
-package org.firstinspires.ftc.teamcode.drive.opmode;
+/*package Main.Drive_controls.opmode;
 
 import com.acmerobotics.dashboard.config.Config;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
-import org.firstinspires.ftc.teamcode.drive.SampleMecanumDrive;
+import Main.Drive_controls.SampleMecanumDrive;
 
 /*
  * This is a simple routine to test turning capabilities.
  */
-@Config
+/*@Config
 @Autonomous(group = "drive")
 public class TurnTest extends LinearOpMode {
     public static double ANGLE = 90; // deg
@@ -24,4 +24,4 @@ public class TurnTest extends LinearOpMode {
 
         drive.turn(Math.toRadians(ANGLE));
     }
-}
+}*/
