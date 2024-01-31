@@ -1,4 +1,4 @@
-/*package Main.trajectorysequence;
+package Main.trajectorysequence;
 
 import com.acmerobotics.roadrunner.geometry.Pose2d;
 import com.acmerobotics.roadrunner.geometry.Vector2d;
@@ -20,9 +20,11 @@ import com.acmerobotics.roadrunner.trajectory.constraints.TrajectoryVelocityCons
 import com.acmerobotics.roadrunner.util.Angle;
 
 import org.firstinspires.ftc.teamcode.trajectorysequence.sequencesegment.SequenceSegment;
-import org.firstinspires.ftc.teamcode.trajectorysequence.sequencesegment.TrajectorySegment;
-import org.firstinspires.ftc.teamcode.trajectorysequence.sequencesegment.TurnSegment;
-import org.firstinspires.ftc.teamcode.trajectorysequence.sequencesegment.WaitSegment;
+import Main.trajectorysequence.sequencesegment.TrajectorySegment;
+import Main.trajectorysequence.sequencesegment.WaitSegment;
+
+import Main.trajectorysequence.sequencesegment.TurnSegment;
+import Main.trajectorysequence.sequencesegment.WaitSegment;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -676,4 +678,4 @@ public class TrajectorySequenceBuilder {
     private interface AddPathCallback {
         void run();
     }
-}*/
+}

@@ -1,4 +1,4 @@
-/*package Main.util;
+package Main.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -270,4 +270,4 @@ public final class LogFiles {
                     "application/json", new FileInputStream(f));
         });
     }
-}*/
+}

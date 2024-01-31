@@ -1,4 +1,4 @@
-/*package Main.Drive_controls;
+package Main.Drive_controls;
 
 import androidx.annotation.NonNull;
 
@@ -52,7 +52,7 @@ import static Main.Drive_controls.DriveConstants.kV;
 /*
  * Simple tank drive hardware implementation for REV hardware.
  */
-/*@Config
+@Config
 public class SampleTankDrive extends TankDrive {
     public static PIDCoefficients AXIAL_PID = new PIDCoefficients(0, 0, 0);
     public static PIDCoefficients CROSS_TRACK_PID = new PIDCoefficients(0, 0, 0);
@@ -302,4 +302,4 @@ public class SampleTankDrive extends TankDrive {
     public static TrajectoryAccelerationConstraint getAccelerationConstraint(double maxAccel) {
         return new ProfileAccelerationConstraint(maxAccel);
     }
-}*/
+}

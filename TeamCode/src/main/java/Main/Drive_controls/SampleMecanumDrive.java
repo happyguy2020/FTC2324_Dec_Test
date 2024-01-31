@@ -1,4 +1,4 @@
-/*package Main.Drive_controls;
+package Main.Drive_controls;
 
 import androidx.annotation.NonNull;
 
@@ -52,7 +52,7 @@ import static Main.Drive_controls.DriveConstants.kV;
 /*
  * Simple mecanum drive hardware implementation for REV hardware.
  */
-/*@Config
+@Config
 public class SampleMecanumDrive extends MecanumDrive {
     public static PIDCoefficients TRANSLATIONAL_PID = new PIDCoefficients(0, 0, 0);
     public static PIDCoefficients HEADING_PID = new PIDCoefficients(0, 0, 0);
@@ -308,4 +308,4 @@ public class SampleMecanumDrive extends MecanumDrive {
     public static TrajectoryAccelerationConstraint getAccelerationConstraint(double maxAccel) {
         return new ProfileAccelerationConstraint(maxAccel);
     }
-}*/
+}
